@@ -29,6 +29,6 @@ This application is intended for educational and informational purposes only. It
 # Contact Information
 
 For any questions or feedback, please contact:
-- Name: [Your Name]
-- Email: [Your Email]
-- GitHub: [Your GitHub]
+- Name: Seung Soo (Joseph) Chae
+- Email: jssc1025@gmail.com
+- GitHub: https://github.com/jssc1025
