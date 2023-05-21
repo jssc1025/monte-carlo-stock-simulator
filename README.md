@@ -1,0 +1,29 @@
+# Monte Carlo Stock Simulator
+
+This project is a Monte Carlo Stock Simulator implemented in R using the Shiny framework. The simulator uses historical stock price data to predict potential future prices for a given stock. The application also incorporates various metrics such as Value at Risk (VaR) and Expected Shortfall (ES) to provide a comprehensive view of the simulated stock's performance.
+
+## Methodology
+
+The simulator uses a Geometric Brownian Motion (GBM) model to simulate potential future stock prices. It uses the logarithmic returns of the stock's historical price data to determine the drift and volatility parameters of the GBM. 
+
+## Features
+
+- The simulator allows users to input a stock ticker symbol and a risk-free rate. 
+- It provides three different simulation periods: 30-day, 180-day, and 365-day.
+- The output includes various plots of the simulations and a histogram of the final simulated prices.
+- It also provides important metrics such as Maximum Drawdown, Value at Risk (95%), Expected Shortfall (95%), and Sector Return.
+
+## Future Work
+
+The application can be expanded to include more complex models for price simulation, such as the jump-diffusion model or the stochastic volatility model. It can also be enhanced to simulate a portfolio of stocks instead of a single stock.
+
+## Disclaimer
+
+This application is intended for educational and informational purposes only. It does not provide investment advice. The simulated outcomes are based on historical data and do not predict future results.
+
+## Contact Information
+
+For any questions or feedback, please contact:
+- Name: Joseph Chae
+- Email: jssc1025@gmail.com
+- GitHub: [jssc1025](https://github.com/jssc1025)
